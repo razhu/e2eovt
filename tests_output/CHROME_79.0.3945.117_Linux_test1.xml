@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test1"
+    errors="1" failures="1" hostname="" id="" package="test1" skipped="0"
+    tests="2" time="17.55" timestamp="">
+  
+    <testcase name="Ingresar a la página de AGETIC" classname="test1" time="10.37" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Navegar hasta el organigrama de la entidad" classname="test1" time="7.173" assertions="1">  <failure message="Timed out while waiting for element &lt;img[src=&#34;img/svg/organigrama_c.svg&#34;]&gt; to be present for 1000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (1037ms)">    at Object.Navegar hasta el organigrama de la entidad (/home/ramiro/Documents/projects/QA/e2e/ovt/tests/test1.js:14:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;img[src=&#34;img/svg/organigrama_c.svg&#34;]&gt; to be present for 1000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(1037ms)[0m" type="error"><![CDATA[
+        at Object.Navegar hasta el organigrama de la entidad (/home/ramiro/Documents/projects/QA/e2e/ovt/tests/test1.js:14:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;img[src=&#34;img/svg/nosotros_c.svg&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;885637a09109c978f7a78d9a7ffddb33&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="nightwatch.conf"
+    errors="0" failures="0" hostname="" id="" package="nightwatch.conf" skipped="0"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;//*[@id=&#34;tour-menu&#34;]/li[2]/button&gt;:   (Session info: chrome=79.0.3945.117),  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 4.9.0-14-amd64 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=79.0.3945.117)&#34;,&#34;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 4.9.0-14-amd64 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  TimeoutError: An error occurred while running .click() command on &lt;/html/body/div[2]/section/app-sidenav/md-sidenav/ul/li[2]/ul/li[1]/a/span[text()=&#39;Mensual&#39;]&gt;:   (Session info: chrome=79.0.3945.117),  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 4.9.0-14-amd64 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=79.0.3945.117)&#34;,&#34;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Linux 4.9.0-14-amd64 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;//*[@id=&#34;container-main&#34;]/div/div/md-card/md-card-content/md-card/md-card-content/md-icon&gt;: 
+   {&#34;sessionId&#34;:&#34;5bf63bf6bdc729d5d5774f722330644a&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
